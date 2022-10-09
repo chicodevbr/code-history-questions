@@ -11,6 +11,7 @@
 		2A9039C828EF943C0053DB9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039C728EF943C0053DB9F /* ContentView.swift */; };
 		2A9039CA28EF943E0053DB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039C928EF943E0053DB9F /* Assets.xcassets */; };
 		2A9039CD28EF943E0053DB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */; };
+		2A9039D428EFC0750053DB9F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039D328EFC0750053DB9F /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2A9039C728EF943C0053DB9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A9039C928EF943E0053DB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A9039D328EFC0750053DB9F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				2A9039C528EF943C0053DB9F /* game_questionApp.swift */,
 				2A9039C728EF943C0053DB9F /* ContentView.swift */,
 				2A9039C928EF943E0053DB9F /* Assets.xcassets */,
+				2A9039D328EFC0750053DB9F /* Question.swift */,
 				2A9039CB28EF943E0053DB9F /* Preview Content */,
 			);
 			path = "game-question";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9039D428EFC0750053DB9F /* Question.swift in Sources */,
 				2A9039C828EF943C0053DB9F /* ContentView.swift in Sources */,
 				2A9039C628EF943C0053DB9F /* game_questionApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
