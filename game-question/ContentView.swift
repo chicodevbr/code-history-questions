@@ -13,8 +13,8 @@ struct ContentView: View {
         possibleAnswers: ["Ant", "Beatle", "Moth", "fly"],
         correctAnswerIndex: 2)
     
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+   
     
     
     var body: some View {
@@ -31,53 +31,18 @@ struct ContentView: View {
                     .multilineTextAlignment(.leading)
                 Spacer()
                 HStack {
+                  ForEach(0..<question.possibleAnswers.count, id: \.self) {
+                      answerIndex in
                     Button(action: {
-                        print("Tapped on Choice 1")
+                      print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
+                        mainColor = answerIndex == question.correctAnswerIndex ? .green : .red
                     }, label: {
-                        Text("Ant")
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                      ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                     })
-                    
-                    Button(action: {
-                        print("Tapped on Choice 2")
-                    }, label: {
-                        Text("Beetle")
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
-                    
-                    Button(action: {
-                        print("Tapped on Choice 3")
-                    }, label: {
-                        Text("Moth")
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
-                    
-                    Button(action: {
-                        print("Tapped on Choice 4")
-                    }, label: {
-                        Text("Fly")
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
+                  }
                 }
                 
             }
-            
             
             
         }

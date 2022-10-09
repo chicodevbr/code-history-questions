@@ -12,6 +12,7 @@
 		2A9039CA28EF943E0053DB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039C928EF943E0053DB9F /* Assets.xcassets */; };
 		2A9039CD28EF943E0053DB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */; };
 		2A9039D428EFC0750053DB9F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039D328EFC0750053DB9F /* Question.swift */; };
+		2AD28B7B28F323B400621073 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD28B7A28F323B400621073 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2A9039C928EF943E0053DB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A9039D328EFC0750053DB9F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2AD28B7A28F323B400621073 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2A9039C528EF943C0053DB9F /* game_questionApp.swift */,
 				2A9039C728EF943C0053DB9F /* ContentView.swift */,
+				2AD28B7A28F323B400621073 /* ChoiceTextView.swift */,
 				2A9039C928EF943E0053DB9F /* Assets.xcassets */,
 				2A9039D328EFC0750053DB9F /* Question.swift */,
 				2A9039CB28EF943E0053DB9F /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				2A9039D428EFC0750053DB9F /* Question.swift in Sources */,
 				2A9039C828EF943C0053DB9F /* ContentView.swift in Sources */,
+				2AD28B7B28F323B400621073 /* ChoiceTextView.swift in Sources */,
 				2A9039C628EF943C0053DB9F /* game_questionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
