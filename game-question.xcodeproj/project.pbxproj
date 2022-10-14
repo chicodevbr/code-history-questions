@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2A9039C628EF943C0053DB9F /* game_questionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039C528EF943C0053DB9F /* game_questionApp.swift */; };
-		2A9039C828EF943C0053DB9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039C728EF943C0053DB9F /* ContentView.swift */; };
+		2A9039C828EF943C0053DB9F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039C728EF943C0053DB9F /* GameView.swift */; };
 		2A9039CA28EF943E0053DB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039C928EF943E0053DB9F /* Assets.xcassets */; };
 		2A9039CD28EF943E0053DB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */; };
 		2A9039D428EFC0750053DB9F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9039D328EFC0750053DB9F /* Question.swift */; };
 		2AD28B7B28F323B400621073 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD28B7A28F323B400621073 /* ChoiceTextView.swift */; };
 		2AD28B7D28F33F0A00621073 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD28B7C28F33F0A00621073 /* Game.swift */; };
+		2AF4503828F8DFBA00A76DFE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4503728F8DFBA00A76DFE /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A9039C228EF943C0053DB9F /* game-question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "game-question.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9039C528EF943C0053DB9F /* game_questionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game_questionApp.swift; sourceTree = "<group>"; };
-		2A9039C728EF943C0053DB9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A9039C728EF943C0053DB9F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		2A9039C928EF943E0053DB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9039CC28EF943E0053DB9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A9039D328EFC0750053DB9F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		2AD28B7A28F323B400621073 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		2AD28B7C28F33F0A00621073 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2AF4503728F8DFBA00A76DFE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,9 @@
 		2AD28B7F28F33FCA00621073 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A9039C728EF943C0053DB9F /* ContentView.swift */,
+				2A9039C728EF943C0053DB9F /* GameView.swift */,
 				2AD28B7A28F323B400621073 /* ChoiceTextView.swift */,
+				2AF4503728F8DFBA00A76DFE /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,8 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9039D428EFC0750053DB9F /* Question.swift in Sources */,
+				2AF4503828F8DFBA00A76DFE /* WelcomeView.swift in Sources */,
 				2AD28B7D28F33F0A00621073 /* Game.swift in Sources */,
-				2A9039C828EF943C0053DB9F /* ContentView.swift in Sources */,
+				2A9039C828EF943C0053DB9F /* GameView.swift in Sources */,
 				2AD28B7B28F323B400621073 /* ChoiceTextView.swift in Sources */,
 				2A9039C628EF943C0053DB9F /* game_questionApp.swift in Sources */,
 			);
@@ -223,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
