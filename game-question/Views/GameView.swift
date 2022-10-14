@@ -13,7 +13,7 @@ struct GameView: View {
         possibleAnswers: ["Ant", "Beatle", "Moth", "fly"],
         correctAnswerIndex: 2)
     
-    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    @State var mainColor = GameColor.main
    
     
     
